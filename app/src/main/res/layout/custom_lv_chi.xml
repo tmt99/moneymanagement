@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+
+    android:orientation="horizontal">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/calendar2"
+            />
+
+        <TextView
+            android:id="@+id/tvNgayChi"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_marginLeft="3dp"
+            android:gravity="left"
+            android:textSize="17dp"
+
+            android:text="1/6/2020" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.6"
+
+
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:id="@+id/imv"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+
+                android:src="@drawable/shopping_cart" />
+
+            <TextView
+                android:id="@+id/tvTenLoaiChi"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:paddingLeft="5dp"
+
+                android:textSize="17dp"
+                android:text="Tên loại chi " />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="7dp">
+
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="match_parent"
+                android:src="@drawable/money2" />
+            <TextView
+                android:id="@+id/tvSoTienChi"
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="left"
+                android:layout_marginLeft="3dp"
+                android:textSize="17dp"
+                android:paddingRight="10dp"
+                android:text="Sô tiền chi " />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>
+
+
+
